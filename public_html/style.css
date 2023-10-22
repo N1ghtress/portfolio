@@ -1,6 +1,8 @@
 * {
 	box-sizing: inherit;
 	font-size: 16px;
+	padding: 0;
+	margin: 0;
 }
 
 *,
@@ -52,9 +54,8 @@ body {
 	--text-color-mute: #363636;
 }
 
-.nav {
-	padding: 1rem;
-	position: relative;
+#header-target {
+	background-color: var(--secondary-mute);
 }
 
 .nav-header {
@@ -62,9 +63,8 @@ body {
 	width: 100%;
 	max-width: calc(1100px);
 	margin: auto;
-	padding: 1rem 0;
+	padding: 1rem;
 	align-items: center;
-	border-bottom: 1px solid var(--secondary-mute);
 }
 
 .section {
@@ -74,13 +74,16 @@ body {
 	margin: auto;
 }
 
+#footer-target {
+	background-color: var(--secondary-mute);
+}
+
 .nav-footer {
 	display: flex;
 	width: 100%;
 	max-width: calc(1100px);
 	margin: auto;
-	padding: 1rem 0;
-	border-top: 1px solid var(--secondary-mute);
+	padding: 1rem;
 	min-height: 300px;
 	flex-wrap: wrap;
 }
