@@ -1,4 +1,4 @@
-function renderme(prefix = '') {
+function renderheaderfooter(prefix = '') {
     fetch(prefix + 'templates/header.html')
     .then((response) => response.text())
     .then((template) => {
